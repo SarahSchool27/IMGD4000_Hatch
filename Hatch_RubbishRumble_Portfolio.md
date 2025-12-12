@@ -3,9 +3,10 @@
 
 ## Project
 
-Rubbish Rumble is a two to four player couch coop game made in Unreal 
+[Rubbish Rumble](https://awildpipe.itch.io/rubbish-rumble) is a two to four player couch coop game made in Unreal 
 by a team of eight students as 
-a class project for WPI's class IMGD 4000/4500 (Technical Game Dev II).
+a class project for WPI's class IMGD 4000/4500 (Technical/Artistic Game Dev II).
+
 
 
 ## What I worked on
