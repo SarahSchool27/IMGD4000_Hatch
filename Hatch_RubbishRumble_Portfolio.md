@@ -24,7 +24,7 @@ which allowed me to add colored lighting back into the shader.
  
 To limit jittering in cell shader caused by jittering shadows, I turned off Lumen for both Dynamic Global Illumination as well as Dynamic Reflections. This forced all the lighting to be built but removed the shadow fluctuations. Since our game's lighting was already planned to be a stationary skylight this was not an issue for us.
 
-Flat colors (Assets by Irene Wu)
+Flat colors (Assets by Irene Wu and Chloe Luongo)
 ![Shader without texture](./PortfolioImages/fin_col_noline.jpg)
 Textured
 ![Shader with texture](./PortfolioImages/fin_texture_nolines.jpg)
@@ -35,7 +35,7 @@ Textured
 A post processing shader that uses edge detection image kernels to make lineart. It draws lines based on both the distance map and the normal map, to allow for outlines of objects as well as lines on objects themselves.
 This shader has some jitter in the editor in Unreal which disappears on build.
 
-Flat colors and lineart(Assets by Irene Wu)
+Flat colors and lineart(Assets by Irene Wu and Chloe Luongo)
 ![Flat colors and lineart](./PortfolioImages/fin_col_line.jpg)
 Textured and lineart
 ![Textured and lineart](./PortfolioImages/fin_texture_lines.jpg)
