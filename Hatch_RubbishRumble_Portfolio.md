@@ -24,18 +24,18 @@ which allowed me to add colored lighting back into the shader.
  
 To limit jittering in cell shader caused by jittering shadows, I turned off Lumen for both Dynamic Global Illumination as well as Dynamic Reflections. This forced all the lighting to be built but removed the shadow fluctuations. Since our game's lighting was already planned to be a stationary skylight this was not an issue for us.
 
-Flat colors
+Flat colors (Assets by Irene Wu)
 ![Shader without texture](./PortfolioImages/fin_col_noline.jpg)
 Textured
 ![Shader with texture](./PortfolioImages/fin_texture_nolines.jpg)
 
 ![Cell Shader Diagram](./PortfolioImages/Chart_CellShader.jpg)
 
-#### Line Art Shader
+#### Line Art Shader 
 A post processing shader that uses edge detection image kernels to make lineart. It draws lines based on both the distance map and the normal map, to allow for outlines of objects as well as lines on objects themselves.
 This shader has some jitter in the editor in Unreal which disappears on build.
 
-Flat colors and lineart
+Flat colors and lineart(Assets by Irene Wu)
 ![Flat colors and lineart](./PortfolioImages/fin_col_line.jpg)
 Textured and lineart
 ![Textured and lineart](./PortfolioImages/fin_texture_lines.jpg)
@@ -45,17 +45,16 @@ Textured and lineart
 I was given a basic grey box of the world and a set of assets from our art team. From there I populated the world with assets, building the piles that made up the environment of the junkyard. I also determined where to place the item spawn zones to ensure people were moving and staying largely in the center area. 
 During playtesting we received the feedback that the level was too large. There were multiple iterations where I decreased the level size to keep players closer to their opponent.
 
-Assets made by Irene Wu and Chloe Luongo.
 
-Trash Piles Early Design
+Trash Piles Early Design (Assets by Irene Wu and Chloe Luongo)
 ![Enviroment Art Grayscale](./PortfolioImages/samplescene_02.jpg)
 ![Enviroment Art Grayscale](./PortfolioImages/setdressing_01.jpg)
 
-Level Layout
+Level Layout (Assets by Irene Wu and Chloe Luongo)
 ![Level Layout](./PortfolioImages/enviro_01.jpg)
 ![Level Layout](./PortfolioImages/enviro_5.jpg)
 
-Closeups
+Closeups (Assets by Irene Wu and Chloe Luongo)
 ![Enviroment Art](./PortfolioImages/enviro_3.jpg)
 ![Enviroment Art](./PortfolioImages/enviro_2.jpg)
 ![Enviroment Art](./PortfolioImages/enviro_4.jpg)
